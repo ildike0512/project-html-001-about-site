@@ -1,0 +1,63 @@
+@media screen and (max-width: 776px) {
+  div {
+    width: 100%
+  }
+}
+h1 {
+  color: black;
+}
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: dimgrey;
+  margin: 20;
+  padding: 0;
+}
+
+li a {
+  color: red;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+nav ul li {
+  display: inline;
+}
+li a:hover{
+    background-color: black;
+}
+.prolog{
+  font-size: large;
+}
+.box{
+    border: 1px black solid;
+    width: 32%;
+    display: inline-block;
+    margin: 2px;
+    text-align: center;
+}
+.bug{
+  float: left;
+  width: 250px;
+  height: 147px;
+  margin-right: 15px;
+}
+
+
+.size{
+  width: 100%;
+  height: 270px;
+  box-shadow: 10px 10px 5px gray;
+}
+.forma{
+  width: 31%;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+.button{
+  background-color: rgb(218, 231, 143);
+  border-radius: 5px;
+}
